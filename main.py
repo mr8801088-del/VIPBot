@@ -1,8 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = "8800253065:AAHh_2HNTU4Jb4MyqZ2jwTcZxf0rUVCOE4E"
-
+TOKEN = "YOUR_BOT_TOKEN"
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("أهلاً بيك في بوت VIP 👋")
 
